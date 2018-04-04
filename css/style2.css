@@ -1,0 +1,344 @@
+body{
+	padding-bottom:20%;
+	background:#3C4C55;
+	font-family: 'Oxygen', sans-serif;
+}
+.ab2 img {
+	width:85px;
+	
+}
+.ab2 img:hover{
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
+	border-radius: 11px;
+	}
+.main fieldset{
+	border:none;
+	border-radius:7px;
+	padding-bottom:25px;
+	box-shadow:0 0px 55px   #999;
+}
+.ab1 ul{
+		position:fixed;
+		width:100%;
+		top:0;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background-color:#40A46F;
+}
+	.active {
+    background-color: #4CAF50;
+}
+
+.ab1 li a:hover:not(.active) {
+    background-color: #07793D;
+	
+	
+}
+	
+	.ab1 li:last-child{
+		border-right:none;
+	}
+	.ab1 li{
+		
+		float:left;
+		border-right: 1px solid #bbb;
+	}
+	.ab1 li a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+	}
+	.ab3{
+		width:50%;
+		margin:5px auto;
+		height:30px;
+		border: 1px solid #FF0000;
+		background: #FFB9B8;
+		color:#FF0000;
+		text-align:center;
+		padding-top:10px;
+		border-radius:8px;
+	}
+.main{
+	margin:7em auto 0;
+	width:44%;
+}
+
+.main h2,.main h3{
+	font-size: 1em;
+	text-align: center;
+	color:#fff;
+	padding:1em 0;
+	font-family: 'Oxygen', sans-serif;
+	display:block;
+}
+.main h3{
+	font-size: 1em;
+	text-align:left;
+	font-family: 'Oxygen', sans-serif;
+}
+.main h2 a{
+	color:white;
+	display:block;
+	padding:14px 16px;
+	
+}
+ul.facebook{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	background: #333;
+	
+}
+
+ul.facebook li{
+	
+	float: left;
+	margin-top: 5px;
+	
+}
+ul.facebook li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+ul.facebook:hover{
+	background: #5D7BBA;
+}
+
+
+span.term a{
+	color: #1888A8;
+	font-weight: bold;
+}
+span.term a:hover{
+	color:#fff;
+}
+.lable input[type="text"] {
+	border-radius:4px;
+	padding: 14px;
+	font-size: 1.1em;
+	margin: 18px 0px;
+	color: #666666;
+	width:94%;
+	cursor: pointer;
+	font-family: 'Oxygen', sans-serif;
+	outline: none;
+	font-weight: 600;
+	background: #FFFFFF;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	border-left: 6px solid #fff;
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+}
+.lable input[type="text"]:hover,.lable-2 input[type="text"]:hover,input[type="Password"]:hover,input[type="email"],#active {
+	color:#DCDCDC;
+	border-left:6px solid#40A46F;
+}
+.lable-2 select:hover,input[type="email"]:hover{
+	color:#DCDCDC;
+	border-left:6px solid#40A46F;
+}
+.lable-2 textarea{
+border-radius:4px;
+	
+}
+.lable-2 input[type="text"],input[type="Password"],input[type="email"],textarea{ 
+	border-radius:4px;
+	padding: 14px;
+	width: 94%;
+	font-size: 1em;
+	margin: 18px 0px;
+	border:none;
+	color: #666666;
+	cursor: pointer;
+	background: none;
+	float: left;
+	outline: none;
+	font-weight: 700;
+	font-family: 'Oxygen', sans-serif;
+	background: #ffffff;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	border-left: 6px solid #fff;
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+}
+
+.lable-2 select{
+	border-radius:4px;
+	width:100%;
+	padding:14px;
+	font-size:1em;
+	margin: 18px 0px;
+	border: none;
+	color:#666666;
+	float:left;
+	outline:none;
+	font-weight: 700;
+	font-family: 'Oxygen', sans-serif;
+	background: #ffffff;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	border-left: 6px solid #fff;
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+	
+	
+}
+.submit{
+	padding:5px 4px;
+	text-align: center;
+}
+input[type=submit] {
+	padding: 17px 30px;
+	color: #fff;
+	float: right;
+	font-family: 'Oxygen', sans-serif;
+	background: #40A46F;
+	border: 1px solid #40A46F;
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	outline:none;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+.submit input[type=submit]:hover {
+	 background:#07793D;
+	 border:1px solid #07793D;
+}
+/**start-copy-right**/
+.copy-right {
+	text-align: center;
+	margin: 2em 0;
+}
+.copy-right p {
+	color: #FFF;
+	font-size:1em;
+}
+.copy-right p a {
+	font-family: 'Oxygen', sans-serif;
+	font-size:1em;
+	font-weight:600;
+	color:#55ACEE;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.copy-right a:hover{
+	color:#fff;
+}
+.col_1_of_2:first-child {
+	margin-left: 0px;
+}
+.span_1_of_2 {
+	width:100%;
+}
+.col_1_of_2 {
+	display: block;
+	float: left;
+	margin:0 0 0 0.6%;
+}
+.col_1_of_f:first-child {
+	margin-left: 0;
+}
+.span_1_of_f {
+	width:49.7%;
+}
+.col_1_of_f {
+	display: block;
+	float: left;
+	margin:0 0 0 0;
+}
+/*----start-responsive design-----*/
+@media (max-width:1024px){
+.col_1_of_2 {
+	margin: 0 0 0 3.6%;
+}
+.span_1_of_2 {
+	width: 100%;
+}
+.span_1_of_f {
+	width: 50%;
+}
+i.fb, i.tw {
+	margin-right: 1em;
+}
+.main {
+	width: 50%;
+}
+}
+@media (max-width:800px){
+.span_1_of_f {
+	width: 100%;
+}
+.col_1_of_f {
+	float:none;
+}
+.span_1_of_2 {
+	width: 100%;
+}
+.col_1_of_2 {
+	margin:0;
+}
+.lable-2 input[type="text"], input[type="Password"],select {
+	padding: 14px;
+	width: 89%;
+}
+.lable-2 input[type="email"]{
+	padding: 14px;
+	width: 89%;
+}
+}
+@media (max-width:480px){
+.main {
+margin: 7em auto 0;
+width:70%;
+}
+}
+@media (max-width:320px){
+.main {
+	width:80%;
+}
+.lable input[type="text"] {
+	width: 83%;
+}
+.lable-2 input[type="email"]{
+	width:84%;
+}
+.lable-2 input[type="text"], input[type="Password"],select{
+	width: 84%;
+}
+}
